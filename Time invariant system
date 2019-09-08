@@ -3,7 +3,6 @@ t = 0:40;
 %%% Initialize %%%
 n = 3;%state dimension
 m = 2;%input dimension
-
 A = [0.5,0.1,-0.2;-0.3,0.9,0.1;0.3,0.5,0.9];
 B = [0,0;0,1;1,0];
 Q = eye(n);
